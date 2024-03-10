@@ -6,5 +6,8 @@
 
 class RLautoTraining : public BakkesMod::Plugin::BakkesModPlugin
 {
+public:
+	virtual void onLoad();
+	virtual void onUnload();
 };
 
