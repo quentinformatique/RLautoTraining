@@ -4,6 +4,8 @@
 
 #pragma comment ( lib, "pluginsdk.lib" )
 
+using namespace std;
+
 class RLautoTraining : public BakkesMod::Plugin::BakkesModPlugin
 {
 public:
@@ -11,8 +13,9 @@ public:
 	virtual void onUnload();
 
 	void loadHooks();
+	void GameEndedEvent(string name);
 
 private:
-	void Log(std::string msg);
+	void Log(string msg);
 };
 
