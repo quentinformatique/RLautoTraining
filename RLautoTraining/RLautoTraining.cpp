@@ -9,7 +9,7 @@ BAKKESMOD_PLUGIN(RLautoTraining, "Auto Training Plugin", "1.0", PERMISSION_ALL)
 
 void RLautoTraining::onLoad()
 {
-	this->Log("RLautoTraining made by quentinformatique");
+	this->Log("RLautoTraining made by quentinformatique, please see the GitHub repo for more informations");
 	this->loadHooks();
 }
 void RLautoTraining::onUnload()
